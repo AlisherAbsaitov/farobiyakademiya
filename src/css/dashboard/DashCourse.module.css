@@ -1,0 +1,63 @@
+.row{padding:0px 124px;}
+.course{  display: flex; margin-bottom: 70px;}
+.card{height: 273px; border-radius: 44px; overflow: hidden; position: relative;}
+.card_new{background: #EAF4FF;
+    border-radius: 44px; padding:32px; height: 210px !important; overflow: hidden; position: relative; height: 100%;}
+.card_new p{font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B2441;
+    }
+    .lenta span{margin-left: 8px;}
+    .lenta{position: absolute;
+        width: 220%;
+        display: flex; align-items: center;
+       
+        height: 48px;
+        left: -47.37px;
+        font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+color: #FFFFFF;
+       bottom:55px;
+        background: #2189FF;
+        transform: rotate(-13.21deg);}
+.right .card{height: 336px;}
+.card img{height: 110%;}
+.card_img{width:100%; display: flex; align-items: center; justify-content: center; overflow: hidden; height: 100%;}
+.card_back{width:100%; height: 100%; position:absolute; top:0px; left:0px;background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 70.9%);
+ padding:32px; display: flex; flex-direction: column; justify-content: flex-end;}
+.col{padding: 12.5px;}
+.left{width: 72%; display: flex; flex-wrap: wrap;}
+.right{width: 28%;}
+.col_mini{width:40%; }
+.col_big{width:60%;}
+.card h3{
+    font-size: 24px;
+line-height: 32px;
+font-weight: 700;
+color: #FFFFFF;
+margin-bottom: 0px;
+}
+@media (max-width: 1024px){
+    .row{padding:0px 70px}
+    .course{flex-direction: column; }
+    .left, .right{width:100%; }
+
+    .right{display: flex; flex-wrap: wrap;}
+    .right .col{width:50%;}
+    .card_new{height:336px !important}
+    .lenta{bottom:120px}
+}
+@media (min-width: 1600px){
+    .row{padding: 0px 200px;}
+    .card img{height: auto; width:100%;}
+    .right .card img{height: 110%; width:auto}
+    .lenta{bottom: 100px; left:-10%; padding-left: 50px;}
+}
+@media (max-width: 770px){
+    .row{padding: 0px 20px;}
+    .col_mini, .col_big{width: 100%;}
+    .right .col{width:100%;}
+}

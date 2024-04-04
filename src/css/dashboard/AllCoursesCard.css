@@ -1,0 +1,58 @@
+.courses_card {
+    height: 223px;
+    left: 0px;
+    top: 0px;
+    border-radius: 44px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.courses_card_text {
+    padding: 32px;
+    width: 50%;
+    font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: end;
+color: #0B2441;
+}
+
+.courses_card_img {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.courses_card_img img{
+    width: 100%;
+}
+
+.courses_card_1 {
+    background: #8FE2AF;
+}
+
+.courses_card_2 {
+    background: #CCE1EC;
+}
+.courses_card_3 {
+    background: #B4E3D8;
+}
+
+.courses_card_4 {
+    background: #CCCCEA;
+}
+.courses_card_5 {
+    background: #EFDBB2;
+}
+.courses_card_6 {
+    background: #DDBEA7;
+}
+.courses_card_7 {
+    background: #CCE1EC;
+}
+.courses_card_8 {
+    background: #CCCCEA;
+}

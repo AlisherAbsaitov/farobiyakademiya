@@ -1,0 +1,60 @@
+.header{width:100%; height:100vh; padding: 0px 124px; display: flex; align-items: center; justify-content: center;}
+.headerBox{width: 100%; position: relative;}
+.headerItem{background: #EAF4FF;
+    border-radius: 44px; width: 100%; height: 400px; display: flex; justify-content: space-between;}
+.headerText{padding:56px; width:50%;}
+.headerTitle{
+    margin-bottom: 56px;
+}
+.headerText p{font-weight: 500;
+    width: 100%; display: flex;
+    font-size: 16px;
+    color: #0b244181;
+    }
+    .headerImg img{border-radius: 0px 44px 44px 0px;}
+.headerText p img{margin-left: 10.4px;}
+.headerText h1{
+    font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+color: #0B2441;
+}
+.headerText span{position: relative; color: #278cff; height: 38px; white-space: nowrap;}
+.headerText span img{position: absolute; width: 100%; bottom:-7px; left: 0px;}
+.ruText{
+    margin-bottom: 56px;
+}
+.ruText span img{bottom: -15px !important;}
+
+.headBtn{
+    color:white ;
+    width: 198px ;
+    padding: 16px ;
+    text-align: center ;
+    background: #2189FF ;
+    border-radius: 20px ;
+    border: none;
+    outline: none;
+}
+.headBtn:hover{
+    background-color: #2189FFdd;
+}
+
+@media (max-width: 1024px){
+    .header{height: 60vh; padding: 0px 70px;}
+    .headerText{padding: 30px; width:60%}
+    .headerText p{font-size: 14px;}
+    .headerText h1{font-size: 21px; margin-top: 30px;}
+}
+@media (min-width: 1600px){
+    .header{height: 80vh; padding: 0px 200px; margin-top: 50px;}
+}
+@media (max-width: 770px){
+    .header{height: 80vh; padding: 0px 20px;}
+    .headerItem{margin-top: 70px; position: relative ; overflow: hidden;}
+    .headerText{width:100%; z-index: 12;}
+    .header p{color: white;}
+    .header h1{color: white;margin-top: 70px;}
+    .headerImg{position: absolute; right: 0px; z-index: 0; bottom: 0px; transform: rotateY(180deg);}
+    .headerText a{position: absolute; bottom:30px}
+}

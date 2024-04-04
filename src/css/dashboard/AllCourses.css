@@ -1,0 +1,19 @@
+.allcourses {
+    padding: 0 124px;
+    padding-top: 120px;
+}
+
+@media (max-width: 1024px){
+    .allcourses{
+        padding: 120px 70px 70px 70px;
+    }
+    .courseBtn {
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+}
+@media (max-width: 480px){
+    .allcourses{
+        padding: 120px 30px 30px 30px;
+    }
+}

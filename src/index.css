@@ -1,0 +1,142 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+#bigBox{position: relative;}
+#bigBox div{position: absolute; top:-110px}
+.me-auto .active{background-color: transparent !important; color: #2189FF !important;}
+.btnAqua{
+  height:48px; background: #EAF4FF;
+  border-radius: 16px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding:11px 23px; 
+  color: #2189FF;
+  font-size: 12px;
+  border: none;
+  white-space: nowrap;
+}
+.btnAqua span, .btnAqua i{margin:5px}
+.me-auto{display: flex; align-items: center; margin-left: 0px !important;
+  justify-content: flex-end;
+  width: 100% !important; margin-right: 0px !important;}
+.btnLeft{margin-right: auto;}
+p{margin: 0px;}
+a{text-decoration: none !important;}
+.headBtn{width: 198px;
+  height: 56px;
+  display: flex; align-items: center; justify-content: center;
+border: none; 
+  font-weight: 500;
+font-size: 16px;
+margin-top: 56px;
+color: #FFFFFF;
+  background: #2189FF;
+  border-radius: 20px;}
+.headBtn:hover{color: white;}
+.slick-dots{position: absolute !important; bottom:-35px !important; justify-content: flex-end !important;  right:0px}
+.slick-dots button{ opacity: 15% !important;border-radius: 4px !important;
+  height: 0px !important; border: 3px solid #002B53 !important; }
+  .slick-dots li{margin:0px 10px !important; width: 32px !important;}
+  .slick-dots  .slick-active{width: 160px !important; }
+  .slick-dots .slick-active button{border: 3px solid #2189FF !important; opacity: 1 !important;}
+  #box{padding:0px 124px}
+
+
+  .ant-dropdown-menu{z-index: 4321 !important;}
+  .ant-carousel, .ant-carousel *{outline: none !important;}
+.btnBtn{display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 24px;
+  gap: 8px;
+  font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+  
+  width: 137px;
+  height: 44px;
+  margin-top: 20px;
+  outline: none; border:none; 
+  background: #2189FF;
+  border-radius: 12px;}
+  .btnBtn img{width:24px; margin-left: 8px;}
+.navbar-toggler{box-shadow: none !important;}
+.slick-slide{background-color: white !important;}
+@media (max-width: 1024px){
+  .me-auto{background-color: white; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; padding-bottom: 20px;}
+  .btnLeft{margin-left: auto !important ; margin-bottom: 20px ;}
+  .btnAqua{font-size: 13px;}
+  .dashQuestion{padding:0px 70px !important}
+}
+@media (max-width: 770px){
+  .title{font-size: 24px;}
+  .dashQuestion{padding: 0px 20px !important;}
+
+  .ant-collapse-header{padding:0px 16px !important; width: 100%; position: relative;}
+  .ant-collapse-header>span{white-space: wrap !important; width: calc(100% - 60px);}
+  .me-auto{width:100% !important;}
+  .navbar-collapse{width:90vw !important}
+  .ant-collapse-expand-icon{position: absolute; right: 10px;}
+}
+
+.btnAqua{cursor: pointer;}
+.big_course{background-color: rgba(0, 0, 0, 0.383); width: 100vw; height: 100vh; position: fixed; top:0px; left:0px; 
+  padding-top: 100px; z-index: 23; display: flex; padding-left: 250px;
+  }
+  .nav_courses{width: 30%; height: 300px; display: flex; background-color: #FFFFFF; border-radius: 0 0 30px 30px;}
+  .nav_course_item{display: flex; border-right: 1px solid #0B244140; width: 50%; height: 100%; overflow-y: auto; flex-direction: column; padding: 10px 25px 10px 20px;}
+  .navbar-link{
+    color:black;
+  }
+
+  .navbar-link:hover{
+    color:black;
+    font-weight: 600;
+  }
+  .nav_course_children div{display: flex;}
+
+  .nav_course_children{display: flex; height: 15%; align-items: center; justify-content: space-between; cursor: pointer; }
+  .nav_course_children p{margin-bottom: 0px; margin-left: 10px; color: #0B2441; font-size: 14px; font-weight: 500 !important;}
+  .nav_course_children span{color: #0B244140;}
+  
+  .active_nav p{font-weight: 700 !important;}
+  .active_nav span{color: #2189FF;}
+  .nav_course_children:hover span{color: #2189FF; transition: 0s !important;}
+  .nav_course_children:hover p{font-weight:700 !important; transition: 0s !important;}
+  .nav_course_item_right{display: flex; flex-wrap: wrap; justify-content: space-between; width: 50%;}
+  .nav_course_item_right .nav_course_children{width:33.3%; display: flex; justify-content: center;}
+
+  @media(max-width:992px){
+    .big_course{
+      padding-left:80px;
+      padding-right: 80px;
+  }
+    .nav_courses{
+      margin-top: 290px;
+      width: 100%;
+    }
+
+    .nav_course_item{
+      width: 400px;
+    }
+  }
+
+  @media(max-width:667px){
+    .big_course{
+      padding-left:60px;
+      padding-right: 60px;
+  }
+  }
+
+  @media(max-width:450px){
+    .big_course{
+      padding-left:20px;
+      padding-right: 20px;
+  }
+  }
+

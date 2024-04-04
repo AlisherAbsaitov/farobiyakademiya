@@ -1,0 +1,207 @@
+
+.course_main{
+  padding-top: 137px;
+  margin-bottom: 20px;
+}
+
+.course_infos_box{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 56px 64px;
+  background-color:#ddbea7;
+  background: linear-gradient(0deg, #DDBEA7, #DDBEA7), url(image.png);
+  border-radius: 44px;
+}
+
+.course_infos{
+  width: 530px;
+}
+
+.course_title{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B2441;
+  margin-bottom: 16px;
+}
+
+.course_desc{
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0B2441;
+  margin-bottom: 62px;
+}
+
+.course_link{
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 16px 36px;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color:#000;
+  transition-duration: 0.5s;
+  margin-right: 15px;
+}
+.course_link_icon{
+  display: inline-block;
+  margin-left: 15px;
+}
+.course_link:hover{
+  color:aqua;
+}
+
+.course_link:hover .course_link_icon{
+  color:aqua;
+}
+
+.course_img{
+  margin-right: 115px;
+}
+
+.course_about{
+  padding-top: 80px;
+}
+
+.course_about_left{
+  width: 100%;
+}
+
+.course_about_texts_box{
+  width: 583px;
+}
+
+.course_about_title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  color: #0B2441;
+  margin-bottom: 32px;
+}
+
+.course_about_desc{
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0B2441;
+  margin-bottom: 72px;
+}
+
+.learn_course{
+  padding-top: 80px;
+}
+
+.learn_course_title{
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 28px;
+  color: #0B2441;
+  margin-bottom: 32px;
+}
+
+.learn_course_card{
+  width: 100%;
+  min-height: 220.8px;
+  border-radius: 36px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaf4ff;
+  margin-bottom: 24px;
+  padding: 32px 18px 32px 32px;
+
+}
+
+.card_title{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.card_desc_box{
+  width: 302px;
+}
+
+.card_desc{
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media(max-width:1200px){
+  .course_img{
+    margin-right: 0;
+  }
+
+  .course_about_texts_box{
+    width: 500px;
+  }
+}
+
+@media(max-width:992px){
+  .course_about_texts_box{
+    width: 95%;
+  }
+
+  .course_about_desc{
+    margin-bottom: 15px;
+  }
+
+  .course_about_right_image{
+    display: none;
+  }
+}
+
+@media(max-width:769px){
+  .course_infos_box{
+    flex-wrap: wrap;
+  }
+
+  .course_infos{
+    width: 100%;
+  }
+
+  .course_desc{
+    margin-bottom: 20px;
+  }
+
+  .course_link{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:450px){
+  .course_infos_box{
+    padding: 25px 25px;
+  }
+  .course_about_texts_box{
+    width: 100%;
+    text-align: justify;
+  }
+  .card_desc_box{
+    width: 100%;
+  }
+  .card_img{
+    display: none;
+  }
+}
+
+@media(max-width:367px){
+  .course_img{
+    width: 100%;
+
+  }
+}
