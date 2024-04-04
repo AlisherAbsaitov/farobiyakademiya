@@ -28,7 +28,7 @@ export default function App() {
           path="/*"
           element={
             <>
-              <Navbar /> 
+              {/* <Navbar />  */}
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/onecourse/:name/:id" element={<Onecourse />} />
