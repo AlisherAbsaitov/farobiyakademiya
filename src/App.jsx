@@ -28,14 +28,14 @@ export default function App() {
           path="/*"
           element={
             <>
-              {/* <Navbar />  */}
+              <Navbar /> 
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/onecourse/:name/:id" element={<Onecourse />} />
                 <Route path="/allcourses/:id" element={<AllCourses />} />
               </Routes>
               <DashForm/>
-              {/* <Footer /> */}
+              <Footer />
             </>
           }
         />
