@@ -35,7 +35,7 @@ export default function App() {
                 <Route path="/allcourses/:id" element={<AllCourses />} />
               </Routes>
               <DashForm/>
-              <Footer />
+              {/* <Footer /> */}
             </>
           }
         />
